@@ -1,0 +1,88 @@
+.Navbar {
+    width: 100vw;
+    color: white;
+    pointer-events:all;
+    z-index: 1;
+}
+
+.slideNav .Navbar{
+    background-color: white;
+    color: #171D67;
+}
+
+.slideNav .Navbar .Logo{
+    filter: invert(18%) sepia(19%) saturate(3642%) hue-rotate(199deg) brightness(40%) contrast(103%);    
+}
+
+
+
+.Navbar .Container{
+    width: 93.2%;
+    margin: 35px auto;
+    justify-content: space-between;
+}
+
+.Navbar .Logo{
+    width: 150px;
+}
+
+.Navbar .Navlinks{
+    width: 45%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.Navbar .Navlinks a{
+    position: relative;
+    /* transition: opacity ease 200ms; */
+}
+
+.Navbar .Navlinks a:after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    background-color: #FD3B82;
+    opacity: 0;
+}
+
+
+.Navbar .Navlinks a:hover:after {
+    opacity: 1;
+}
+
+.Navbar .Navlinks svg{
+    margin-left: 7px;
+}
+
+.Navbar .Reseaux{
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Navbar .Reseaux .RSContainer{
+    width: 40%;
+    justify-content: space-between;
+}
+
+.Navbar .Reseaux .RS{
+    background-color: white;
+    height: 35px;
+    width: 35px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #171D67;
+    font-size: 1.25em;
+    transition: all 200ms ease;
+}
+
+.Navbar .Reseaux .RS:hover{
+    background-color: #FD3B82;
+    color: white;
+}

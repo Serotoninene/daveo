@@ -1,0 +1,36 @@
+/*  WHITE SHAPE  */
+.WhiteShape{
+    width: 100% ;
+    z-index: -1;
+}
+
+/* WHITE DONUT */
+.WhiteDonut{
+    width: 20px;
+    height: 20px;
+    border : 15px solid white;
+    border-radius: 50%;
+    top: 120px;
+    left: 85px;
+}
+
+/* PINK CIRCLE */
+.PinkCircle{
+    background-color: #FF3781;
+    border-radius: 50%;
+}
+
+/* GREEN SHAPE */
+.GreenShape{
+    z-index: -2;
+}
+
+/* FIRST BEAN */
+.FirstBean{
+    width: 50px;
+}
+
+/* SECOND BEAN */
+.SecondBean{
+    width: 60px;
+}

@@ -1,0 +1,18 @@
+
+.Button{
+    background-color: #FD3B82;
+    height: 16px;
+    padding: 16px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 50px;
+    color: white ;
+    line-height: 16px;
+    transition: all ease 200ms;
+}
+
+.Button:hover{
+    transform: translateY(-7px);
+    background-color: #EC1162;
+}
+

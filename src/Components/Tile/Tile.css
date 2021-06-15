@@ -1,0 +1,39 @@
+.Tile{
+    grid-column: span 4;
+    margin: 15px;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 340px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Tile:last-of-type{
+    background-color: #F5F5F5;
+}
+
+.Tile h1{
+    text-align: center;
+    background-image: linear-gradient(to right, white 50%, rgb(254, 55, 129) 50%);
+    background-position: 0% 0;
+    background-size: 200% auto;
+    transition: all ease 400ms;
+}
+
+.Tile:hover h1{
+    background-position: -99% 0;
+    color: white;
+
+}
+
+.Offers .Container .Tile p{
+    width: 80%;
+    font-size: 16px;
+}
+
+.Offers .Container .Tile h2{
+    font-size: 2rem;
+    margin-bottom: 13px;
+}
+

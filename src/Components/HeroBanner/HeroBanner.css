@@ -1,0 +1,25 @@
+.HeroBanner{
+    height: 100vh;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.HeroBanner .Container{
+    width: 45vw;
+    margin-right:47px ;
+}
+
+.HeroBanner .Wording h1{
+    background-color: #6DFFEA;
+    font-size: 50px;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 0;
+}
+
+.HeroBanner .Wording h2{
+    font-size: 22px;
+    font-weight: 900;
+}
+

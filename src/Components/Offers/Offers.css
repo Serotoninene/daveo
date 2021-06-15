@@ -1,0 +1,20 @@
+.Offers .Container{
+    width: 1135px;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Offers .Container h2{
+    background-color: #6DFFEA;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.Offers .Container p{
+    font-size: 16px;
+    font-weight: 200;
+    width: 65.23%;
+    text-align: center;
+    line-height: 24px;
+}
